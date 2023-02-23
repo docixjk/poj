@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&family=Sunflower&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="prod_qna.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="top_name">
+      상담 문의
+    </div>
+    <form action="">
+      <div class="qna_contents">
+        <div class="font right">
+          <span class="txt">카테고리</span>
+          <select name="category" id="category" class="pl ri2">
+            <option value="pay" class="txt">결제</option>
+            <option value="delivery" class="txt">배송</option>
+            <option value="order" class="txt">기타</option>
+          </select>
+        </div>
+        <div class="font">
+          <span class="txt">제목</span>
+          <input type="text" id="qna_title" name="qna_title">
+          <span id="dd" class="txt">작성자</span>
+          <input type="text" id="qna_user_id" name="qna_user_id" value="박선아"> <!-- 여기 벨류에 작성할 유저의 이름이 들어가야됨-->
+
+        </div>
+        <div class="font">
+          <span id="left" class="txt">내용</span>
+          <textarea name="qna_content" id="qna_content" cols="70" rows="20"></textarea>
+        </div>
+      </div>
+      <div class="btn_s">
+        <input class="add" type="submit" value="문의등록">
+        <input class="re" type="reset" value="취소">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

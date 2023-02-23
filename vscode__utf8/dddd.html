@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta
+      name="google-site-verification"
+      content="otX7rmNCEHEvuEEVe3ITip0T3ZWnsUufTJkTMscWDoU"
+    />
+    <meta
+      name="naver-site-verification"
+      content="a150baddbabcc07f4fa733974f7c49a103cf82b5"
+    />
+
+    <title>맛있는 쇼핑, 모찌모찌</title>
+
+    <meta property="og:image" content="" />
+    <meta property="og:title" content="티나는 쇼핑, 모찌모찌" />
+
+    <link href="" rel="shortcut icon" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://img4.tmon.kr/fe/release/service/static/review/p/css/myreview.css?v=1676857953267"
+    />
+  </head>
+  <!--[if IE 9]><body class="lt-ie10 review_page"> <![endif]-->
+  <!--[if gt IE 9]><!-->
+  <body class="review_page">
+    <!--<![endif]-->
+    <div id="root"></div>
+
+    <script type="text/javascript">
+      var TMON = TMON || {};
+      TMON.sDeployPhase = "RELEASE";
+      TMON.bUseArtistChaiOnTestEnvironment = false;
+      TMON.bUseArtistChaiLazyLoading = false;
+      TMON.bUseArtistChaiOnInnernet = false;
+      TMON.bInnerNet = false;
+      TMON.___useArtistchaiRegion = "";
+      TMON.___bUseForceArtistchai = false;
+      TMON.currentTimeString = "20230223212911";
+      TMON.currentTimeTimestamp = "1677155351107";
+      TMON.bMobile = false;
+      TMON.bLogin = true;
+      TMON.bAdultCert = false;
+      TMON.sCartKey = "";
+      TMON.sUserCartKey = "TMON_CART_116568462";
+      TMON.bIsEzwelPage = "";
+      TMON.sService = "";
+      TMON.bisGNBDefaultOpenCategory = false;
+      TMON.bisGNBUseSlim = false;
+      TMON.htDomain = {
+        www: "https://www.tmon.co.kr",
+        help: "http://help.tmon.co.kr",
+        my: "https://login.tmon.co.kr",
+        img: "https://img1.tmon.kr/resources/p/img",
+        js: "https://img1.tmon.kr/fe/release/core/p/default",
+        css: "https://img1.tmon.kr/resources/p/css",
+        commonapi: "http://commonapi.tmon.co.kr",
+        billapi: "http://billapi.tmon.co.kr",
+        api_cart: "http://m.tmon.co.kr/cart/addToCart",
+        api_buy: "/cart/addToCartForBuyNow",
+        imgCdn: "https://img3.tmon.kr",
+        thumbnail: "http://www.tmon.co.kr",
+        locale: "https://locale.tmon.co.kr",
+
+        search: "https://search.tmon.co.kr",
+      };
+      TMON.htCommonUrl = {
+        homeSuggest: "http://home.tmon.co.kr/suggest",
+        www_dealList: "http://www.tmon.co.kr/deallist",
+        www_dealDetail: "http://www.tmon.co.kr/deal",
+        www_martPlan: "http://www2.tmon.co.kr/mart/plan",
+        www_planning: "http://www.tmon.co.kr/planning/{}",
+        www_soholist: "http://www.tmon.co.kr/soholist/{}",
+        www_p_deal_detail_sms: "http://pc.tmon.co.kr/deal/share/smsPopup",
+        www_automated_store: "http://www.tmon.co.kr/store/",
+      };
+
+      TMON.bIsIpad = false;
+      TMON.bIsChrome = true;
+      TMON.bIsMac = false;
+      TMON.bIsWindows = true;
+
+      TMON.userIp = "125.137.38.226";
+
+      TMON.sDevice = "PW";
+      TMON.htSearchKeyword = {};
+    </script>
+
+    <!-- true / p.review.common -->
+    <script src="https://img1.tmon.kr/fe/release/core/p/default/p.review.common.js?v=1676857953267"></script>
+
+    <script>
+      TMON.webpackPublicPath =
+        "https://img4.tmon.kr/fe/release/service/static/review/m" + "/";
+      TMON.htReview = {
+        sReviewNo: "",
+        sFrom: "write",
+        sErrorStatus: "",
+        sErrorMessage: "",
+        dealType: "PIN",
+        reviewType: "A",
+        isScDeal: false,
+      };
+      TMON.htReview.htUrl = {
+        loginPage: "https://m.tmon.co.kr/user/loginForm?returnUrl=", // 모바일 로그인 페이지
+        modifyReview:
+          "http://m.tmon.co.kr/reviewAndTalk/writeReview/{nMainDealNo}/{nMainBuyNo}/Y?mode=mn",
+        storage: "http://storage.tmon.co.kr", // storage URL
+      };
+      TMON.htReview.htAPI = {
+        getReview: "/api/direct/v1/boardapi/api/review/search/{reviewNo}", // 리뷰 조회
+        deleteReview:
+          "/api/direct/v1/boardapi/api/review/deleteReview/{dealSrl}/{buySrl}/{memberSrl}", // 리뷰 삭제
+        reportReview: "/api/direct/v1/boardapi/api/review/report/{reviewNo}", // 리뷰 신고
+        recommendReview:
+          "/api/direct/v1/boardapi/api/review/recommendation/{reviewNo}", // 리뷰 추천
+        reviewSurveyItems:
+          "/api/direct/v1/boardapi/api/review/survey/info/{mainDealNo}", // 리뷰 평가항목 조회
+      };
+      TMON.htStaticData = {
+        sImgCdn: "https://img2.tmon.kr",
+      };
+
+      $.ajaxSetup({ cache: false });
+    </script>
+
+    <script src="https://img4.tmon.kr/fe/release/service/static/review/m/js/bundle/common.bundle.js?v=1676857953267"></script>
+    <script src="https://img4.tmon.kr/fe/release/service/static/review/m/js/bundle/review.bundle.js?v=1676857953267"></script>
+  </body>
+</html>
+<body class="review_page review-write">
+  <!--<![endif]-->
+  <div id="root">
+    <div class="_moduleContainer"></div>
+    <div class="write_pop_wrap" id="_alertPop" style="display: none">
+      <article class="write_pop_article">
+        <div class="write_pop_header type2">
+          <h4></h4>
+          <button type="button" class="btn_pop_close">
+            <span class="blind">닫기</span>
+          </button>
+        </div>
+        <div class="write_pop_contents"></div>
+        <div class="write_pop_footer">
+          <button
+            type="button"
+            id="_button1"
+            class="btn_pop_button"
+            style="display: none"
+          ></button>
+          <button
+            type="button"
+            id="_button2"
+            class="btn_pop_button"
+            style="display: none"
+          ></button>
+        </div>
+        <div id="_share_on_review" class="write_pop_share">
+          <h4>이 상품을 공유해보세요!</h4>
+          <ul class="icon_list">
+            <li class="icon_list_item">
+              <button
+                type="button"
+                class="icon_list_button kakao"
+                aria-label="카카오톡으로 공유하기"
+                data-type="kakaotalk"
+                tl:area="RCDS"
+                tl:ord="1"
+              ></button>
+            </li>
+            <li class="icon_list_item">
+              <button
+                type="button"
+                class="icon_list_button facebook"
+                aria-label="페이스북으로 공유하기"
+                data-type="facebook"
+                tl:area="RCDS"
+                tl:ord="2"
+              ></button>
+            </li>
+            <li class="icon_list_item">
+              <button
+                type="button"
+                class="icon_list_button sms"
+                aria-label="문자로 공유하기"
+                data-type="sms"
+                tl:area="RCDS"
+                tl:ord="3"
+              ></button>
+            </li>
+            <li class="icon_list_item">
+              <button
+                type="button"
+                class="icon_list_button url"
+                aria-label="URL로 공유하기"
+                data-type="urlcopy"
+                tl:area="RCDS"
+                tl:ord="4"
+              ></button>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <div class="review_write_area">
+      <div
+        data-role="review_write_toast"
+        class="review_toast_recommend"
+        style="display: none"
+      >
+        <p class="text">추천해주셔서 감사합니다.</p>
+      </div>
+      <h1 class="review_write_title">리뷰쓰기</h1>
+      <p class="review_write_sub">
+        이 상품으로 받을 수 있는 리뷰 적립금은
+        <span class="point_color_orange f_bold">10원</span>입니다.
+      </p>
+      <div class="review_write_box">
+        <h3 class="blind">구매상품 정보</h3>
+        <div class="deal_option_info">
+          <div class="deal_option_thumb">
+            <span class="_reviewImage deal_option_img"></span>
+          </div>
+          <div class="deal_option_text">
+            <strong class="_reviewWriteTitle deal_option_title"></strong>
+
+            <div data-role="reviewWriteOption" class="deal_option_box">
+              <ul class="_buyOption deal_option_list"></ul>
+
+              <button
+                type="button"
+                role="reviewWriteMore"
+                class="btn_open"
+                aria-label="구매옵션 펼쳐보기"
+              >
+                <span class="blind">구매옵션 펼쳐보기</span>
+                <!--<span class="blind">구매옵션 접기</span>-->
+                <svg
+                  width="11px"
+                  height="6px"
+                  viewBox="0 0 11 6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  class="ico_open_arrow"
+                >
+                  <g
+                    id="Symbols"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g id="pc_btn_open_op" fill="#979EA7" fill-rule="nonzero">
+                      <polygon
+                        transform="translate(5.500000, 3.000000) rotate(-180.000000) translate(-5.500000, -3.000000) "
+                        points="5.5 1.4 0.723 6 0 5.3 4.777 0.7 5.5 0 11 5.3 10.277 6"
+                      ></polygon>
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review_write_input">
+        <h2 class="review_write_title type2">상품 평가하기</h2>
+        <div class="review_write_rate">
+          <h3 class="blind">구매상품 평점</h3>
+          <div class="star_score">
+            <div class="star_score_box">
+              <strong class="review_write_title type2">상품 만족도</strong>
+              <div class="star_score_bind">
+                <button
+                  type="button"
+                  class="btn_star_score _saStar"
+                  value="1"
+                ></button
+                ><button
+                  type="button"
+                  class="btn_star_score _saStar"
+                  value="2"
+                ></button
+                ><button
+                  type="button"
+                  class="btn_star_score _saStar"
+                  value="3"
+                ></button
+                ><button
+                  type="button"
+                  class="btn_star_score _saStar"
+                  value="4"
+                ></button
+                ><button
+                  type="button"
+                  class="btn_star_score _saStar"
+                  value="5"
+                ></button>
+                <span class="star_score_text _saTitle">선택해주세요</span>
+              </div>
+            </div>
+            <div class="star_score_box" style="display: none">
+              <strong class="review_write_title type2">배송 만족도</strong>
+              <div class="star_score_bind">
+                <button
+                  type="button"
+                  class="btn_star_score _deStar"
+                  value="1"
+                ></button
+                ><button
+                  type="button"
+                  class="btn_star_score _deStar"
+                  value="2"
+                ></button
+                ><button
+                  type="button"
+                  class="btn_star_score _deStar"
+                  value="3"
+                ></button
+                ><button
+                  type="button"
+                  class="btn_star_score _deStar"
+                  value="4"
+                ></button
+                ><button
+                  type="button"
+                  class="btn_star_score _deStar"
+                  value="5"
+                ></button>
+                <span class="star_score_text _deTitle">선택해주세요</span>
+              </div>
+            </div>
+          </div>
+
+          <section
+            id="_reviewSurvey"
+            class="review_input"
+            style="display: none"
+          >
+            <h1 class="blind">상품 평가항목</h1>
+          </section>
+        </div>
+      </div>
+      <section class="review_write_out">
+        <div class="review_write_header">
+          <h1 class="review_write_title type2">리뷰 작성하기</h1>
+          <span class="text_count"><em>0</em>/600</span>
+          <button type="button" role="showWritePop" class="btn_notice">
+            <svg
+              width="14px"
+              height="14px"
+              viewBox="0 0 14 14"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              class="ico_review_info"
+            >
+              <g
+                id="Symbols"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g id="ico_review_info">
+                  <g>
+                    <circle
+                      id="Oval"
+                      stroke="#959DA6"
+                      fill="#FFFFFF"
+                      cx="7"
+                      cy="7"
+                      r="6.5"
+                    ></circle>
+                    <g
+                      id="Group"
+                      transform="translate(6.500000, 3.500000)"
+                      fill="#959DA6"
+                    >
+                      <rect
+                        id="Rectangle"
+                        x="0"
+                        y="0"
+                        width="1"
+                        height="5"
+                      ></rect>
+                      <rect
+                        id="Rectangle-Copy-2"
+                        x="0"
+                        y="6"
+                        width="1"
+                        height="1"
+                      ></rect>
+                    </g>
+                  </g>
+                </g>
+              </g></svg
+            >작성시 유의사항
+          </button>
+        </div>
+
+        <div class="review_write_textarea">
+          <textarea
+            id="reviewContents"
+            title="구매후기 작성"
+            name="reviewContents"
+            maxlength="600"
+          ></textarea>
+
+          <div class="review_write_placeholder">
+            <ul class="placeholder_list">
+              <li class="placeholder_item">
+                <span class="text"
+                  >리뷰는 최소 10자 이상 입력해 주세요.<br />사진은 최대 4장까지
+                  등록 가능합니다.</span
+                >
+              </li>
+              <li class="placeholder_item">
+                <span class="text"
+                  >상품과 무관하거나 스팸, 불법적인 내용의 리뷰는 통보없이
+                  비노출 처리될 수 있습니다.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="review_write_header">
+          <h2 class="review_write_title type2">이미지 등록</h2>
+          <span class="text_count"><span class="cnt">0</span>/4</span>
+        </div>
+        <div class="review_write_image">
+          <form
+            method="post"
+            id="_reviewImageUploadForm"
+            enctype="multipart/form-data"
+          >
+            <ul id="_uploadImageList" class="review_write_list">
+              <li
+                id="_uploadRLoading"
+                class="review_write_item"
+                style="display: none"
+              >
+                <div class="img_file_box" style="background-image: url('')">
+                  <span class="loading"
+                    ><span class="blind">이미지 업로드중</span></span
+                  >
+                </div>
+              </li>
+            </ul>
+            <div id="_uploadRImage" class="img_file_button">
+              <input
+                type="file"
+                name="uploadFile"
+                class="input_file"
+                accept="image/*"
+                multiple=""
+              />
+              <span class="input_file_text">
+                <svg
+                  width="19px"
+                  height="16px"
+                  viewBox="0 0 19 16"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  class="ico_camera"
+                >
+                  <g
+                    id="Symbols"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g id="ico_camera" stroke="#F27935">
+                      <g>
+                        <path
+                          d="M12.5569995,0.5 L6.44300047,0.5 C6.23457819,0.5 6.04801783,0.629286417 5.97472189,0.824741949 L5.34526022,2.5 L2,2.5 C1.17157288,2.5 0.5,3.17157288 0.5,4 L0.5,14 C0.5,14.8284271 1.17157288,15.5 2,15.5 L17,15.5 C17.8284271,15.5 18.5,14.8284271 18.5,14 L18.5,4 C18.5,3.17157288 17.8284271,2.5 17,2.5 L13.6534998,2.5 L13.0251641,0.824438279 C12.9519822,0.629286417 12.7654218,0.5 12.5569995,0.5 Z"
+                          id="Combined-Shape"
+                        ></path>
+                        <g
+                          id="Group-13"
+                          transform="translate(6.000000, 5.000000)"
+                        >
+                          <line
+                            x1="3.5"
+                            y1="-1.13659082e-13"
+                            x2="3.5"
+                            y2="7"
+                            id="Path-4"
+                          ></line>
+                          <line
+                            x1="7"
+                            y1="3.5"
+                            x2="2.27318164e-13"
+                            y2="3.5"
+                            id="Path-4-Copy"
+                          ></line>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                사진 추가 (<span class="cnt">0</span>/4)
+              </span>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="_reviewWriteInfo review_write_notice">
+        <h1 class="review_write_title type2">리뷰 작성시 혜택 안내</h1>
+        <ul class="info_dot_list">
+          <li class="info_dot_item">
+            <span class="text"
+              ><span class="f_bold"
+                >상품별 최초 1회에 한해 일반/포토리뷰 작성 시
+                <span class="point_color_orange">10원</span> 즉시 지급</span
+              ></span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              >리뷰 작성 적립금은
+              <span class="f_bold"
+                >적립일 기준
+                <span class="point_color_orange">180일 이내 사용</span></span
+              >
+              가능</span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              >주문별로 리뷰 작성 가능(적립금은 동일 상품별 1회 지급)</span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              >배송상품 :
+              <span class="f_bold">리뷰 작성 후 적립금 즉시 지급</span></span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              >지역, 티켓, 여행상품 :
+              <span class="f_bold"
+                >최소 1회이상 사용완료 후 리뷰 작성 및 적립금 지급</span
+              ></span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              ><span class="f_bold"
+                >리뷰 삭제 후 재작성시 적립금 지급되지 않음</span
+              ></span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              ><span class="f_bold"
+                >리뷰 작성 후 해당 주문 취소시 지급된 적립금 회수</span
+              ></span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              >당사의 상품 리뷰 운영원칙 및 관련법령에 위반되는 경우 작성자에게
+              사전 통보 없이 비노출 처리</span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              ><span class="point_color_orange f_bold"
+                >2019년 7월 17일 이후</span
+              >
+              주문 건부터 적립금 지급</span
+            >
+          </li>
+          <li class="info_dot_item">
+            <span class="text"
+              >0원, 이벤트 상품은 적립금 지급 대상에서 제외</span
+            >
+          </li>
+        </ul>
+        <button type="button" class="btn_review_wide">
+          <span class="text">더보기</span>
+          <svg
+            width="11px"
+            height="6px"
+            viewBox="0 0 11 6"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            class="ico_btn_arrow"
+          >
+            <g
+              id="Symbols"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g id="btn_open" fill="#B7BFC8" fill-rule="nonzero">
+                <polygon
+                  transform="translate(5.500000, 3.000000) rotate(-180.000000) translate(-5.500000, -3.000000) "
+                  points="5.5 1.4 0.723 6 0 5.3 4.777 0.7 5.5 0 11 5.3 10.277 6"
+                ></polygon>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </section>
+      <div class="review_write_info" style="display: none">
+        <svg
+          width="14px"
+          height="14px"
+          viewBox="0 0 14 14"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          class="ico_review_info"
+        >
+          <g
+            id="Symbols"
+            stroke="none"
+            stroke-width="1"
+            fill="none"
+            fill-rule="evenodd"
+          >
+            <g id="ico_review_info">
+              <g>
+                <circle
+                  id="Oval"
+                  stroke="#959DA6"
+                  fill="#FFFFFF"
+                  cx="7"
+                  cy="7"
+                  r="6.5"
+                ></circle>
+                <g
+                  id="Group"
+                  transform="translate(6.500000, 3.500000)"
+                  fill="#959DA6"
+                >
+                  <rect id="Rectangle" x="0" y="0" width="1" height="5"></rect>
+                  <rect
+                    id="Rectangle-Copy-2"
+                    x="0"
+                    y="6"
+                    width="1"
+                    height="1"
+                  ></rect>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+        <p class="info_text">
+          리뷰를 등록할 수 없는 상품입니다.<br />과대광고 방지를 위해 만족도만
+          선택 가능합니다
+        </p>
+      </div>
+      <div class="review_write_btn">
+        <button type="button" role="cancel" class="btn_review">취소</button>
+        <button type="button" role="register" class="btn_review fill">
+          등록
+        </button>
+      </div>
+    </div>
+    <div role="writePopup" class="write_pop_wrap" style="display: none">
+      <article class="write_pop_article">
+        <div class="write_pop_header">
+          <h4>리뷰 작성시 유의사항</h4>
+          <button
+            type="button"
+            role="closeWritePop"
+            class="btn_close"
+            aria-label="레이어 닫기"
+          >
+            <svg
+              width="15px"
+              height="15px"
+              viewBox="0 0 15 15"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              class="ico_x"
+            >
+              <g
+                id="Symbols"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g id="ico_closed_btn" fill="#959DA6">
+                  <polygon
+                    points="14.293 0 7.5 6.794 0.705 0 -8.8817842e-16 0.706 6.792 7.5 -8.8817842e-16 14.294 0.705 15 7.5 8.206 14.293 15 15 14.294 8.205 7.5 15 0.706"
+                  ></polygon>
+                </g>
+              </g>
+            </svg>
+          </button>
+        </div>
+        <div class="write_pop_contents">
+          <ol class="contents_list">
+            <li>
+              리뷰 내용과 사진은 티몬에서 거래되는 상품의 판촉, 홍보 등을 위하여
+              복제, 배포, 전송, 전시 등에 이용 될 수 있습니다.
+            </li>
+            <li>
+              리뷰 내용 또는 사진이 아래의 내용에 해당하는 경우에는 작성자에게
+              통보 없이 비공개 처리되거나 민/형사상의 책임이 따를 수 있습니다.
+              <ul class="contents_list_sub">
+                <li>
+                  상품과 관계없는 내용 또는 이미지, 비방, 무의미한 단어반복,
+                  허위의 사실 유포 등 다른 회원 또는 회사의 영업을 방해하는 경우
+                </li>
+                <li>
+                  저작권, 초상권 등 타인의 권리 혹은 개인정보(신용카드번호,
+                  전화번호 등)의 침해 우려가 있는 경우
+                </li>
+                <li>특정 성분의 효능에 있어 오해의 소지가 있는 경우</li>
+                <li>기타 관계법령에 위반되는 경우</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <script src="//static.criteo.net/js/ld/ld.js" async=""></script>
+  <script type="text/javascript">
+    var TMON = TMON || {};
+    TMON.sDeployPhase = "RELEASE";
+    TMON.bUseArtistChaiOnTestEnvironment = false;
+    TMON.bUseArtistChaiLazyLoading = false;
+    TMON.bUseArtistChaiOnInnernet = false;
+    TMON.bInnerNet = false;
+    TMON.___useArtistchaiRegion = "";
+    TMON.___bUseForceArtistchai = false;
+    TMON.currentTimeString = "20230223212911";
+    TMON.currentTimeTimestamp = "1677155351107";
+    TMON.bMobile = false;
+    TMON.bLogin = true;
+    TMON.bAdultCert = false;
+    TMON.sCartKey = "";
+    TMON.sUserCartKey = "TMON_CART_116568462";
+    TMON.bIsEzwelPage = "";
+    TMON.sService = "";
+    TMON.bisGNBDefaultOpenCategory = false;
+    TMON.bisGNBUseSlim = false;
+    TMON.htDomain = {
+      www: "https://www.tmon.co.kr",
+      help: "http://help.tmon.co.kr",
+      my: "https://login.tmon.co.kr",
+      img: "https://img1.tmon.kr/resources/p/img",
+      js: "https://img1.tmon.kr/fe/release/core/p/default",
+      css: "https://img1.tmon.kr/resources/p/css",
+      commonapi: "http://commonapi.tmon.co.kr",
+      billapi: "http://billapi.tmon.co.kr",
+      api_cart: "http://m.tmon.co.kr/cart/addToCart",
+      api_buy: "/cart/addToCartForBuyNow",
+      imgCdn: "https://img3.tmon.kr",
+      thumbnail: "http://www.tmon.co.kr",
+      locale: "https://locale.tmon.co.kr",
+
+      search: "https://search.tmon.co.kr",
+    };
+    TMON.htCommonUrl = {
+      homeSuggest: "http://home.tmon.co.kr/suggest",
+      www_dealList: "http://www.tmon.co.kr/deallist",
+      www_dealDetail: "http://www.tmon.co.kr/deal",
+      www_martPlan: "http://www2.tmon.co.kr/mart/plan",
+      www_planning: "http://www.tmon.co.kr/planning/{}",
+      www_soholist: "http://www.tmon.co.kr/soholist/{}",
+      www_p_deal_detail_sms: "http://pc.tmon.co.kr/deal/share/smsPopup",
+      www_automated_store: "http://www.tmon.co.kr/store/",
+    };
+
+    TMON.bIsIpad = false;
+    TMON.bIsChrome = true;
+    TMON.bIsMac = false;
+    TMON.bIsWindows = true;
+
+    TMON.userIp = "125.137.38.226";
+
+    TMON.sDevice = "PW";
+    TMON.htSearchKeyword = {};
+  </script>
+
+  <!-- true / p.review.common -->
+  <script src="https://img1.tmon.kr/fe/release/core/p/default/p.review.common.js?v=1676857953267"></script>
+
+  <script>
+    TMON.webpackPublicPath =
+      "https://img4.tmon.kr/fe/release/service/static/review/m" + "/";
+    TMON.htReview = {
+      sReviewNo: "",
+      sFrom: "write",
+      sErrorStatus: "",
+      sErrorMessage: "",
+      dealType: "PIN",
+      reviewType: "A",
+      isScDeal: false,
+    };
+    TMON.htReview.htUrl = {
+      loginPage: "https://m.tmon.co.kr/user/loginForm?returnUrl=", // 모바일 로그인 페이지
+      modifyReview:
+        "http://m.tmon.co.kr/reviewAndTalk/writeReview/{nMainDealNo}/{nMainBuyNo}/Y?mode=mn",
+      storage: "http://storage.tmon.co.kr", // storage URL
+    };
+    TMON.htReview.htAPI = {
+      getReview: "/api/direct/v1/boardapi/api/review/search/{reviewNo}", // 리뷰 조회
+      deleteReview:
+        "/api/direct/v1/boardapi/api/review/deleteReview/{dealSrl}/{buySrl}/{memberSrl}", // 리뷰 삭제
+      reportReview: "/api/direct/v1/boardapi/api/review/report/{reviewNo}", // 리뷰 신고
+      recommendReview:
+        "/api/direct/v1/boardapi/api/review/recommendation/{reviewNo}", // 리뷰 추천
+      reviewSurveyItems:
+        "/api/direct/v1/boardapi/api/review/survey/info/{mainDealNo}", // 리뷰 평가항목 조회
+    };
+    TMON.htStaticData = {
+      sImgCdn: "https://img2.tmon.kr",
+    };
+
+    $.ajaxSetup({ cache: false });
+  </script>
+
+  <script src="https://img4.tmon.kr/fe/release/service/static/review/m/js/bundle/common.bundle.js?v=1676857953267"></script>
+  <script src="https://img4.tmon.kr/fe/release/service/static/review/m/js/bundle/review.bundle.js?v=1676857953267"></script>
+  <!-- Code injected by live-server -->
+  <script>
+    // <![CDATA[  <-- For SVG support
+    if ("WebSocket" in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (
+              (elem.href && typeof rel != "string") ||
+              rel.length == 0 ||
+              rel.toLowerCase() == "stylesheet"
+            ) {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+              elem.href =
+                url +
+                (url.indexOf("?") >= 0 ? "&" : "?") +
+                "_cacheOverride=" +
+                new Date().valueOf();
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol =
+          window.location.protocol === "http:" ? "ws://" : "wss://";
+        var address =
+          protocol + window.location.host + window.location.pathname + "/ws";
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == "reload") window.location.reload();
+          else if (msg.data == "refreshcss") refreshCSS();
+        };
+        if (
+          sessionStorage &&
+          !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+        ) {
+          console.log("Live reload enabled.");
+          sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+        }
+      })();
+    } else {
+      console.error(
+        "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+      );
+    }
+    // ]]>
+  </script>
+
+  <div id="criteo-tags-div" style="display: none"></div>
+</body>
